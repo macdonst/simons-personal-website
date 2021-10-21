@@ -2,6 +2,7 @@ const Styles = require('./styles')
 const Symbols = require('./symbols')
 const Splash = require('./splash')
 const Content = require('./content')
+const arc = require('@architect/functions')
 module.exports = function Home (props) {
   props = props || {}
   let title = props.title || 'Personal Website'
@@ -29,6 +30,7 @@ module.exports = function Home (props) {
  ${Symbols}
  ${Splash(props)}
  ${Content(props)}
+ <script src="${arc.static('index.js', {stagePath: false})}" type="module" crossorigin=""></script>
 </body>
 </html>
   `

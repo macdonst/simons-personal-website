@@ -4,6 +4,7 @@ const LocationLink = require('./link-location')
 const MailLink = require('./link-mail')
 const SocialMedia = require('./social-media')
 const Icon = require('./icon')
+const ToggleButton = require('./toggle-button')
 
 module.exports = function Content (props) {
   props = props || {}
@@ -77,6 +78,7 @@ module.exports = function Content (props) {
         ${MailLink({
           email
         })}
+        ${ToggleButton()}
         ${SocialMedia({
           twitter,
           linkedin,

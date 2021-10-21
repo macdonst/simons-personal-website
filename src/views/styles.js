@@ -9,6 +9,13 @@ module.exports = function Styles (props) {
   padding: 0;
   box-sizing: border-box;
 }
+:root {
+  background-color: #FFFFFF;
+}
+
+:root[data-theme="dark"] {
+  background-color: #000000;
+}
 body {
   font-family: 'Roboto',-apple-system,BlinkMacSystemFont,"Segoe UI",Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
 }
