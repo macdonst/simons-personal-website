@@ -1,5 +1,8 @@
 // learn more about HTTP functions here: https://arc.codes/primitives/http
-const shiki = require('shiki')
+const fetch = require('node-fetch'); // 7.8mb
+const  _ = require('lodash'); // 1.4mb
+const arcFunctions = require('@architect/functions') // .5mb
+// 9.7mb total
 
 exports.handler = async function http (req) {
   return {

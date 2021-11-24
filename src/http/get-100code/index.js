@@ -1,4 +1,9 @@
 // learn more about HTTP functions here: https://arc.codes/primitives/http
+const sandbox = require('@architect/sandbox') // 88mb
+const fetch = require('node-fetch'); // 7.8mb
+const  _ = require('lodash'); // 1.4mb
+const arcFunctions = require('@architect/functions') // .5mb
+
 exports.handler = async function http (req) {
   return {
     statusCode: 200,

@@ -1,5 +1,7 @@
 // learn more about HTTP functions here: https://arc.codes/primitives/http
-const hljs = require('highlight.js');
+const hljs = require('highlight.js'); // 3.9mb
+const  _ = require('lodash'); // 1.4mb
+// 5.3mb total
 
 exports.handler = async function http (req) {
   return {
