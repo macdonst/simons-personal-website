@@ -1,4 +1,11 @@
 // learn more about HTTP functions here: https://arc.codes/primitives/http
+const hljs = require('highlight.js'); // 3.9mb
+const request = require('request'); // 4.0mb
+const  _ = require('lodash'); // 1.4mb
+const arcFunctions = require('@architect/functions') // .5mb
+const moment = require('moment'); // 4.2mb
+const express = require('express'); // 1.7mb
+
 exports.handler = async function http (req) {
   return {
     statusCode: 200,
