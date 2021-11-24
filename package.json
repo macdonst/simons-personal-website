@@ -41,6 +41,22 @@
       [
         "get",
         "/1024mem"
+      ],
+      [
+        "get",
+        "/5code"
+      ],
+      [
+        "get",
+        "/10code"
+      ],
+      [
+        "get",
+        "/50code"
+      ],
+      [
+        "get",
+        "/100code"
       ]
     ],
     "tables": [
@@ -65,6 +81,8 @@
     "@begin/data": "^3.0.0"
   },
   "dependencies": {
-    "@architect/functions": "^4.0.0"
+    "@architect/functions": "^4.0.0",
+    "highlight.js": "^11.3.1",
+    "shiki": "^0.9.12"
   }
 }
