@@ -1,5 +1,4 @@
 // learn more about HTTP functions here: https://arc.codes/primitives/http
-const sandbox = require('@architect/sandbox') // 88mb
 const hljs = require('highlight.js'); // 3.9mb
 const request = require('request'); // 4.0mb
 const  _ = require('lodash'); // 1.4mb
