@@ -4,6 +4,7 @@ const request = require('request'); // 4.0mb
 const  _ = require('lodash'); // 1.4mb
 const arcFunctions = require('@architect/functions') // .5mb
 const sandbox = require('@architect/sandbox')
+const architect = require('@architect/architect')
 
 exports.handler = async function http (req) {
   return {
