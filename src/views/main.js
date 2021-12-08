@@ -26,6 +26,7 @@ module.exports = function Home (props) {
     overflow-hidden-large
   "
 >
+ ${process.version}
  ${Symbols}
  ${Splash(props)}
  ${Content(props)}
